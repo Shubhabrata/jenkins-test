@@ -15,6 +15,55 @@ exit();
 function check_ltyle_check()
 {
 	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
+	echo "check style issue";
 }
 
 ?>
