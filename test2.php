@@ -4,6 +4,17 @@ echo "test without error";
 the train();
 $var = test
 
+
 exit();
 ?>
 
+
+
+<?php
+
+function check_ltyle_check()
+{
+	echo "check style issue";
+}
+
+?>
