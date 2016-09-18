@@ -1,5 +1,5 @@
 <?php 
 echo "test without error";
-no the_function()
+no the_function() 
 ?>
 
