@@ -269,17 +269,19 @@
   </fail>
  </target>
 <target name="php-error-check">
+<apply executable="php" failonerror="true">
+   <arg value="-l" />
 
-    <foreach param="fname" absparam="abs-fname" target="cat">
-            <fileset dir="${basedir}/src/">
-                <include name="**/*.php" />
-            </fileset>
-        </foreach> 
+   <fileset dir="${basedir}/src">
+    <include name="**/*.php" />
+    <modified />
+   </fileset>
 
-   </target>
-
-    <target name="cat">
-                <exec command="php -f ${abs-fname}"  checkreturn="true" output="${basedir}/build/logs/php-error.xml" />
-    </target> 
+   <fileset dir="${basedir}/tests">
+    <include name="**/*.php" />
+    <modified />
+   </fileset>
+  </apply>
+  </target> 
 </project>
 
